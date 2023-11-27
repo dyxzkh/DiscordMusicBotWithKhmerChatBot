@@ -1,0 +1,24 @@
+{
+  "name": "discordmusicbot",
+  "version": "1.0.0",
+  "description": "Discord Music Bot With Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "DiscordBot"
+  ],
+  "author": "DyXz",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/voice": "^0.16.1",
+    "@distube/yt-dlp": "^1.1.3",
+    "@iamtraction/google-translate": "github:iamtraction/google-translate",
+    "discord.js": "^14.14.1",
+    "distube": "^4.1.1",
+    "libsodium-wrappers": "^0.7.13",
+    "openai": "^4.20.0"
+  }
+}
